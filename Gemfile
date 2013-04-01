@@ -26,6 +26,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'webrat'
+
 group :development do 
   gem 'rspec-rails', '~> 2.0'
 end
