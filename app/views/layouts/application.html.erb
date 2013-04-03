@@ -2,10 +2,12 @@
 <html>
 	<head>
 		<title>
-			Ruby tutorial sample app | <%= @title %>
+			<%= title %>
 		</title>	
 	</head>
 	<%= csrf_meta_tag %>
+	<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+	<%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
 	<body>
 		<%= yield %>
 	</body>
