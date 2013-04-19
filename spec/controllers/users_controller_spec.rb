@@ -16,7 +16,5 @@ describe UsersController do
                                     :content => "Sign up")
     end
   end
-
-    
-
 end
+
