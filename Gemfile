@@ -31,7 +31,9 @@ gem 'webrat'
 group :development do 
   gem 'rspec-rails', '~> 2.0'
   gem 'annotate'
+  gem 'factory_girl_rails'
 end
 group :test do 
   gem 'rspec'
+  gem 'factory_girl_rails'
 end
