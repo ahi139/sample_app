@@ -85,7 +85,7 @@ a.signup_button {
 	padding: 20px;
 }
 
-/* Rounded corners*/
+/* Rounded corners */
 
 .round {
 	-moz-border-radius: 5px;
@@ -94,6 +94,7 @@ a.signup_button {
 }
 
 /* footer */
+
 footer{
 	text-align: center;
 	margin-top: 10px;
@@ -104,4 +105,27 @@ footer{
 
 footer nav {
 	float: none;
+}
+
+/* User Show page */
+
+table.profile {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+td.main {
+	width: 70%;
+	padding: 1em;
+}
+
+td.sidebar {
+	width: 30%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+
+.profile {
+	
 }
